@@ -1,5 +1,515 @@
-template-repository (1.0-1) unstable; urgency=medium
+libkf5libkdepim (4:22.12.3-1) unstable; urgency=medium
 
-  * Initial release
+  [ Patrick Franz ]
+  * New upstream release (22.12.3).
+  * Update build-deps and deps with the info from cmake.
+  * Remove inactive uploaders, thanks for your work.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Patrick Franz <deltaone@debian.org>  Wed, 01 Mar 2023 21:31:20 +0100
+
+libkf5libkdepim (4:22.12.2-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (22.12.2).
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 05 Feb 2023 00:24:47 +0100
+
+libkf5libkdepim (4:22.12.0-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 04 Jan 2023 21:36:24 +0100
+
+libkf5libkdepim (4:22.12.0-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (22.12.0).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.6.2 (No changes needed).
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 22 Dec 2022 21:02:25 +0100
+
+libkf5libkdepim (4:22.08.3-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (22.08.3).
+
+ -- Patrick Franz <deltaone@debian.org>  Fri, 04 Nov 2022 21:52:48 +0100
+
+libkf5libkdepim (4:22.08.2-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (22.08.2).
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 29 Oct 2022 00:10:22 +0200
+
+libkf5libkdepim (4:22.08.0-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 10 Sep 2022 13:08:04 +0200
+
+libkf5libkdepim (4:22.08.0-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Update upstream signing-key.
+  * Bump Standards-Version to 4.6.1 (No changes needed).
+  * New upstream release (22.08.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 31 Aug 2022 01:43:57 +0200
+
+libkf5libkdepim (4:22.04.3-1) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (22.04.3).
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 14 Jul 2022 21:55:12 +0200
+
+libkf5libkdepim (4:22.04.2-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Mon, 27 Jun 2022 22:00:40 +0200
+
+libkf5libkdepim (4:22.04.2-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (22.04.2).
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 19 Jun 2022 02:45:46 +0200
+
+libkf5libkdepim (4:22.04.1-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (22.04.1).
+  * Update build-deps and deps with the info from cmake.
+  * Update list of installed files.
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 25 May 2022 01:57:11 +0200
+
+libkf5libkdepim (4:21.12.3-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Fri, 01 Apr 2022 22:08:44 +0200
+
+libkf5libkdepim (4:21.12.3-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (21.12.3).
+  * Update build-deps and deps with the info from cmake.
+  * Add myself to Uploaders.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 24 Mar 2022 22:16:24 +0100
+
+libkf5libkdepim (4:21.08.1-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.1).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 11 Sep 2021 07:26:16 +0900
+
+libkf5libkdepim (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:36:59 +0900
+
+libkf5libkdepim (4:21.04.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.3).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 09 Jul 2021 10:40:39 +0900
+
+libkf5libkdepim (4:21.04.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.1).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 14 May 2021 06:15:08 +0900
+
+libkf5libkdepim (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 13 May 2021 09:47:03 +0900
+
+libkf5libkdepim (4:20.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.3).
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * Minimize the upstream GPG signing key.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 16 Dec 2020 01:39:15 +0100
+
+libkf5libkdepim (4:20.08.2-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 20 Oct 2020 00:07:36 +0200
+
+libkf5libkdepim (4:20.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Update repository related entries to metadata file.
+  * LibkdepimAkonadi is deleted:
+    - Remove libkf5libkdepimakonadi5.
+    - Remove libkdepimakonadi references from dev and data package.
+    - Remove libkf5libkdepimakonadi5 dependency from dev package.
+  * Get rid of not used build dependencies.
+  * Update copyright file for 20.08.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 16 Oct 2020 00:52:13 +0200
+
+libkf5libkdepim (4:20.04.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Explicitly add the gettext build dependency.
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5 addon
+    - call the right debhelper command instead of $(overridden_command)
+  * Unregister the old /etc/xdg/libkdepim.categories, and
+    /etc/xdg/libkdepim.renamecategories conffiles. (Closes: #946507)
+  * Tighten inter-library dependencies.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 20 Aug 2020 07:19:25 +0200
+
+libkf5libkdepim (4:20.04.1-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.04.1).
+  * Update build-deps and deps with the info from cmake.
+  * Remove not needed Build-Depends.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 27 May 2020 00:00:19 +0200
+
+libkf5libkdepim (4:20.04.0-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Update watch file to the new release-service location.
+  * Bump compat level to 13.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (20.04.0).
+  * Update build-deps and deps with the info from cmake.
+  * Enable hardening all.
+  * Cleanup copyright file.
+  * Set fields Upstream-Name, Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 13 May 2020 12:22:57 +0200
+
+libkf5libkdepim (4:19.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.3).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 30 Nov 2019 22:55:10 +0100
+
+libkf5libkdepim (4:19.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Remove breaks against kde-l10n packages.
+  * Update install files for new upstream release.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 08 Nov 2019 10:40:54 +0100
+
+libkf5libkdepim (4:18.08.3-4) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Nov 2019 23:50:34 +0100
+
+libkf5libkdepim (4:18.08.3-3) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.1 (No changes needed).
+  * Bump compat level to 12.
+  * Add myself to Uploaders.
+  * Delete not needed Breaks/Confilcts.
+  * Use virtual packages to bundle KDEPIM.
+  * Enforce depdendencies between KDEPIM packages to enable bundling.
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 06 Oct 2019 22:41:44 +0200
+
+libkf5libkdepim (4:18.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update symbols from buildds for 4:18.08.3
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Feb 2019 21:07:55 +0100
+
+libkf5libkdepim (4:18.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.3.0 (No changes needed).
+  * Removed acc autopkgtest.
+  * Removed testsuite autopkgtest.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 04 Feb 2019 16:00:58 +0100
+
+libkf5libkdepim (4:18.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.2.1 (No changes needed).
+  * Follow stable releases in KDE again.
+  * New upstream release (18.08.1).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 02 Oct 2018 23:19:20 +0200
+
+libkf5libkdepim (4:18.07.90-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update watch file to match unstable releases, too.
+  * New upstream release (18.07.90).
+  * Bump Standards-Version to 4.2.0 (No changes needed).
+  * Update build-deps and deps with the info from cmake.
+  * Update copyright file for new upstream.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 18 Aug 2018 11:49:54 +0200
+
+libkf5libkdepim (4:17.12.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.3).
+  * Update symbols from buildds for 4:17.12.2
+  * bump epoch in symbolsfiles to match version of the package.
+  * Update build-deps and deps with the info from cmake.
+  * use secure copyright format uri.
+  * Use secure uri in d/watch.
+  * Don't duplicate 'priority' field in binary package.
+  * Update long descriptions.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 31 Mar 2018 18:27:35 +0200
+
+libkf5libkdepim (4:17.12.2-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.2).
+  * Update Vcs links to salsa.
+  * Bump Standards-Version to 4.1.3 (No changes needed).
+  * Update copyright file.
+  * Enable build tests (make them non-failing).
+  * Update symbols for 17.12.2.
+  * Replace Build-Dep kdesignerplugin with kgendesignerplugin.
+  * Bump debhelper build-dep and compat to 11.
+  * Mark libkf5akonadisocialutils-dev as oldlibs/optional.
+  * Remove circular dependecy between libkf5libkdepim-plugins and
+    libkf5libkdepimakonadi5.
+  * Add symbols file.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 09 Mar 2018 15:15:35 +0100
+
+libkf5libkdepim (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.08.3).
+  * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
+  * Bump Standards-Version to 4.1.2 (No changes needed).
+  * Remove not needed Build-Deps.
+  * Add libkf5akonadicontact to Deps of dev (part of public API).
+  * Bump debhelper build-dep and compat to 10.
+  * Update symbols from buildds for 4:17.08.0
+  * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:59:51 +0100
+
+libkf5libkdepim (4:17.08.0-1) experimental; urgency=medium
+
+  * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+  * Bump group breaks (17.08)
+  * Update copyright file
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:08:37 +0200
+
+libkf5libkdepim (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:41:44 +0000
+
+libkf5libkdepim (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:25:36 +0000
+
+libkf5libkdepim (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:24:20 +0000
+
+libkf5libkdepim (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:25:53 +0000
+
+libkf5libkdepim (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 20 Apr 2017 09:49:58 +0000
+
+libkf5libkdepim (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:50:38 +0000
+
+libkf5libkdepim (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 17:03:03 +0000
+
+libkf5libkdepim (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:24:32 +0000
+
+libkf5libkdepim (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:31:58 +0000
+
+libkf5libkdepim (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:54:30 +0000
+
+libkf5libkdepim (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:41:24 +0000
+
+libkf5libkdepim (4:16.08.1-1~1.gbpcfb174) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @cfb174157735bda971f13a46a65231a0bdfcc49a **
+
+  [ Maximiliano Curia ]
+  ** SNAPSHOT build @5eb65efa688a5cfadb54392efb46bb974f51f232 **
+
+  * UNRELEASED
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 23:12:45 +0200
+
+libkf5libkdepim (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:08:12 +0000
+
+libkf5libkdepim (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:50:27 +0000
+
+libkf5libkdepim (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 03 Aug 2016 12:51:31 +0000
+
+libkf5libkdepim (4:16.04.2-3) unstable; urgency=medium
+
+  * Update symbols files with the results from the buildds
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Jul 2016 15:42:04 +0200
+
+libkf5libkdepim (4:16.04.2-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 05 Jul 2016 17:06:04 +0200
+
+libkf5libkdepim (4:16.04.2-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Add new upstream patch: upstream_add_copying.patch
+
+  [ Automatic packaging ]
+  * Update symbols files with the buildds results
+  * Refresh patches
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 14:56:54 +0200
+
+libkf5libkdepim (4:16.04.1-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Initial release.
+  * Update build-deps and deps with the info from cmake
+  * Initial packaging
+  * Update watch file to use the unstable version
+  * The auto_tests need X to be run
+  * Update install files
+  * Add data a plugins packages
+  * Add missing headers for CamelCase users
+  * Update acc file
+  * Rename source package, add missing file
+  * Fix typo in the symbols file
+  * Fix wrong section name
+  * Update the acc test
+  * Add missing dev dependency (thanks to the acc headers check)
+  * Bump kdepim dependencies
+
+  [ Automatic packaging ]
+  * Update symbols files
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jun 2016 12:34:58 +0200
