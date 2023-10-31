@@ -1,9 +1,93 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: libkdepim
+Upstream-Contact: kde-devel@kde.org
+Source: https://invent.kde.org/pim/libkdepim
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
+Copyright: 2005-2011, Allen Winter <winter@kde.org>
+           2010, Bertjan Broeksema <broeksema@kde.org>
+           2004, Bram Schoenmakers <bramschoenmakers@kde.nl>
+           2001-2003, Carsten Pfeiffer <pfeiffer@kde.org>
+           2010, Casey Link <unnamedrambler@gmail.com>
+           2006, Christian Schaarschmidt <schaarsc@gmx.de>
+           2009, Constantin Berzan <exit3219@gmail.com>
+           2001-2004, Cornelius Schumacher <schumacher@kde.org>
+           2004, Daniel Molkentin <danimo@klaralvdalens-datakonsult.se>
+           2010, David Faure <faure@kde.org>
+           2003, Don Sanders <sanders@kde.org>
+           2005, George Staikos <staikos@kde.org>
+           2002, Helge Deller <deller@gmx.de>
+           2005, KDE Russian translation team
+           2004, Karl-Heinz Zimmer <khz@klaralvdalens-datakonsult.se>
+           2009-2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2002, Klarälvdalens Datakonsult AB
+           2012-2020, Laurent Montel <montel@kde.org>
+           2002, Lubos Lunak <llunak@suse.cz>
+           2002, Meni Livne <livne@kde.org>
+           2010, Nicolas Lécureuil <nicolas.lecureuil@free.fr>
+           2005, Rafal Rzepecki <divide@users.sourceforge.net>
+           2003-2004, Reinhold Kainhofer <reinhold@kainhofer.com>
+           2003-2020, This_file_is_part_of_KDE
+           2008, Thomas McGuire <mcguire@kde.org>
+           2004, Till Adam <adam@kde.org>
+           2002-2010, Tobias Koenig <tokoe@kde.org>
+           2008-2010, Volker Krause <vkrause@kde.org>
+           2001, Waldo Bastian <bastian@kde.org>
+License: LGPL-2+
+
+Files: src/libkdepim/progresswidget/progressdialog.cpp
+       src/libkdepim/progresswidget/progressdialog.h
+       src/libkdepim/progresswidget/ssllabel.cpp
+       src/libkdepim/progresswidget/ssllabel.h
+       src/libkdepim/progresswidget/statusbarprogresswidget.cpp
+       src/libkdepim/progresswidget/statusbarprogresswidget.h
+       src/libkdepim/widgets/kwidgetlister.cpp
+       src/libkdepim/widgets/kwidgetlister.h
+Copyright: 2001-2003, Carsten Pfeiffer <pfeiffer@kde.org>
+           2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           David Faure <dfaure@kde.org>
+           2004, David Faure <faure@kde.org>
+           Don Sanders
+           2002-2003, Klarvdalens Datakonsult AB
+           2001, Marc Mutz <mutz@kde.org>
+           2015-2018, Montel Laurent <montel@kde.org>
+           2004, Till Adam <adam@kde.org>
+           2010, Tobias Koenig <tokoe@kde.org>
+           2003, Zack Rusin <zack@kde.org>
+License: GPL-2
+
+Files: src/libkdepim/widgets/kcheckcombobox.cpp
+       src/libkdepim/widgets/kcheckcombobox.h
+Copyright: 2010, Bertjan Broeksema <broeksema@kde.org>
+           2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           2000, Don Sanders <sanders@kde.org>
+           1989-1991, Free Software Foundation, Inc
+           2017-2018, Montel Laurent <montel@kde.org>
+           2004, Reinhold Kainhofer <reinhold@kainhofer.com>
+           2008, Thomas Thrainer <tom_t@gmx.at>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2016, Maximiliano Curia <maxy@debian.org>
+License: LGPL-2+
+
+Files: po/uk/*
+Copyright: 2004-2019, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 of the license.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -15,8 +99,29 @@ License: GPL-2+
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise, the complete
+ text of the GNU Lesser Genereal Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3'.
+

@@ -1,15 +1,83 @@
-Source: template-repository
-Section: unknown
+Source: libkf5libkdepim
+Section: libs
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sandro Knauß <hefee@debian.org>,
+           Patrick Franz <deltaone@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.99.0~),
+               gettext,
+               libkf5completion-dev (>= 5.99.0~),
+               libkf5config-dev (>= 5.99.0~),
+               libkf5configwidgets-dev (>= 5.99.0~),
+               libkf5coreaddons-dev (>= 5.99.0~),
+               libkf5i18n-dev (>= 5.99.0~),
+               libkf5itemviews-dev (>= 5.99.0~),
+               libkf5jobwidgets-dev (>= 5.99.0~),
+               libkf5widgetsaddons-dev (>= 5.99.0~),
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.2~),
+               qttools5-dev,
+               xauth,
+               xvfb,
+Standards-Version: 4.6.2
+Homepage: https://invent.kde.org/pim/libkdepim
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/libkdepim
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/libkdepim.git
+Rules-Requires-Root: no
 
-Package: template-repository
+Package: libkf5libkdepim-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+Description: KDE PIM library - data files
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains data files used by the library.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5libkdepim-dev
+Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Multi-Arch: same
+Depends: libkf5completion-dev (>= 5.99.0~),
+         libkf5coreaddons-dev (>= 5.99.0~),
+         libkf5ldap-dev (>= 20.04.1~),
+         libkf5libkdepim5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.15.2~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KDE PIM library - development files
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains headers, and the libraries needed to build some of the KDE PIM
+ applications.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5libkdepim-plugins
+Architecture: any
+Multi-Arch: same
+Depends: libkf5libkdepim-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: KDE PIM library - plugins
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains plugins that are distributed with the library.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5libkdepim5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5libkdepim-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: libkf5libkdepim-plugins,
+Description: KDE PIM library
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains shared libraries and data which most of KDE PIM applications use.
+ .
+ This package is part of the KDE PIM module and hold the part of libkdepim
+ that do not depend on Akonadi.
+Provides: ${ABI:VirtualPackage},

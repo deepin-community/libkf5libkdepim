@@ -1,0 +1,2 @@
+rm_conffile /etc/xdg/libkdepim.categories 4:20.04.1-2~
+rm_conffile /etc/xdg/libkdepim.renamecategories 4:20.04.1-2~
